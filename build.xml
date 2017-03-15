@@ -5,3 +5,13 @@
   <echo msg="${message}"/>
  </target>
 </project>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HelloGit" default="welcome" basedir="." description="a demo project">
+ <property name="message" value="Hello World!"/>
+ <target name="welcome">
+  <echo msg="${message}"/>
+ </target>
+</project>
+
